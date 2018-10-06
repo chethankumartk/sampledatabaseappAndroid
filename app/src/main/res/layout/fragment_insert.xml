@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/buttondhu_backgrnd"
+tools:context="com.chethankumar.database.employee">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#ffffff"
+
+            android:background="@drawable/innondhbackground"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:hint="Name"
+            android:background="@drawable/buttondhu_backgrnd"
+            android:id="@+id/name"
+            />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Location"
+
+            android:textColor="#ffffff"
+            android:background="@drawable/innondhbackground"
+
+            android:layout_margin="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttondhu_backgrnd"
+            android:id="@+id/location"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Select"
+
+            android:textColor="#ffffff"
+            android:gravity="center"
+
+
+            android:background="@drawable/innondhbackground"
+            android:layout_margin="20dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttondhu_backgrnd"
+            android:id="@+id/spinnerr"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Marks/salary"
+            android:textColor="#ffffff"
+
+            android:background="@drawable/innondhbackground"
+            android:layout_margin="20dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/buttondhu_backgrnd"
+            android:layout_margin="20dp"
+
+            android:id="@+id/marks"/>
+
+    </LinearLayout>
+
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:background="@drawable/innondhbackground"
+    android:layout_margin="20dp"
+    android:textColor="#ffffff"
+    android:id="@+id/submit"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="20dp"
+    android:text="reset"
+    android:background="@drawable/innondhbackground"
+    android:textColor="#ffffff"
+    android:id="@+id/reset"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"/>
+
+
+</LinearLayout>
